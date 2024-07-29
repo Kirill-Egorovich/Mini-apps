@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Window</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section class="first">
+        <div class="container">
+            <div class="wrapper">
+                <div class="right">
+                    <h1>В наличии</h1>
+                    <p>Итальянская кофемашина LA CARIMALI предназначена для приготовления эспрессо и напитков на основе эспрессо. Оснащена 8 клавишами автоматической работы кофемашины (по 4 на каждую группу) и 2 клавишами полуавтоматической работы кофемашины (по 1 на каждую группу). Модель включает в себя съемный поддон, кран подачи кипятка и две форсунки подачи пара. PID контроллер позволит вам готовить стабильный эспрессо чашка за чашкой, а высокие группы позволят вам готовить напитки в высокий стакан без лишнего дискомфорта. </p>
+                    <button class="popup-btn">Оформить заказ</button>
+                </div>
+                <div class="left"><img src="images/cofemachine.png" alt="cofemachine"></div>
+            </div>
+        </div>
+    </section>
+    <section class="second">
+        <div class="container">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis nisi tempore ut atque debitis eaque
+                tempora rem ea? Maxime reiciendis adipisci sequi mollitia veritatis facere, laboriosam debitis
+                recusandae fuga. Voluptas asperiores ipsa, perspiciatis veniam blanditiis sit quod? Ex veniam
+                repellendus a corporis fugit. Ab, excepturi explicabo. Officia amet consequuntur quidem esse laborum
+                pariatur asperiores. Ea repellendus debitis molestias quae labore eum cum facilis maxime unde, illum
+                blanditiis quia explicabo, mollitia repellat doloremque quidem veritatis, tenetur consequatur ratione
+                autem. Provident itaque, minima vel, nam possimus tempore hic voluptatum repellat, fugiat repellendus
+                culpa? Quam, commodi eius. Asperiores voluptatibus, cupiditate modi molestias exercitationem excepturi
+                quo eius optio quas, ipsam dicta fuga velit repellat? Obcaecati voluptate nostrum repudiandae optio
+                ipsam officia sint odit, eligendi error neque animi dolorem, aliquid cum deleniti harum! Error ut
+                deleniti totam harum dignissimos veniam labore corporis quaerat repellendus ratione cum officiis a
+                corrupti minima consectetur nostrum eveniet sequi sint numquam non cumque, aspernatur tempora. Nemo ad
+                possimus voluptates iste praesentium, laboriosam earum recusandae excepturi expedita eligendi iusto
+                alias laborum deleniti eaque accusamus non aliquid explicabo eius tempore cupiditate illo quisquam
+                adipisci pariatur. Dolorum sapiente labore sequi officia eos, eius necessitatibus animi odit iste
+                numquam quod soluta, delectus rem! Ab velit nihil, facere provident, neque officia, reprehenderit autem
+                voluptatibus impedit voluptates modi quidem non quasi excepturi. Laudantium debitis veniam dolorum harum
+                quae sed omnis distinctio voluptates sit excepturi labore dolores nulla et sapiente id quod
+                reprehenderit consectetur quidem, earum explicabo numquam odit perferendis! Quae ducimus velit, aperiam
+                beatae tempore a?</p>
+        </div>
+    </section>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <button class="popup-close">X</button>
+            <h2>Ваш заказ успешно оформлен</h2>
+            <p>Благодорим за покупку! </p>
+        </div>
+    </div>
+</body>
+
+</html>
