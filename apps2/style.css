@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.side-panel{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(19, 19, 19);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    z-index: 1;
+    transition: .5s;
+}
+
+.closed-btn{
+    position: absolute;
+    padding: 10px 15px;
+    top: 10px;
+    right: 10px;
+    font-weight: 700;
+    font-size: 25px;background-color: rgb(117, 117, 117);
+}
+
+.closed-btn:hover{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+}
+
+.nav{
+    padding-top: 25%;
+}
+
+.nav a{
+    display: block;
+    padding: 15px 20px;
+    margin-left: 10%;
+    color: rgb(117, 117, 117);
+    font-size: 40px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.nav a:hover{
+    color: #fff;
+}
+
+.burger{
+    background-color: rgb(19, 19, 19);
+    padding: 10px 15px;
+}
+
+.burger:hover{
+    background-color: rgb(53, 53, 53);
+}
+
+main{
+    padding: 20px 10px 0 10px;
+}
+
+main h1{
+    padding-top: 30px;
+    font-size: 45px;
+}
+
+main p{
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 1.3;
+}
