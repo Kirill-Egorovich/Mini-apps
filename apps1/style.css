@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width: 1350px;
+    margin: auto;
+}
+
+.first{
+    background-color: rgb(190, 190, 190);
+    padding: 50px 0;
+}
+
+.first h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.first p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.popup-btn{
+    margin-left: 42.5%;
+    margin-top: 80px;
+    background: linear-gradient(to top, rgb(255, 0, 0), rgb(255, 202, 202));
+    padding: 20px 35px;
+    border-radius: 100px;
+    font-size: 17px;
+}
+
+.popup-btn:hover{
+    background: rgb(212, 7, 7);
+}
+
+.second{
+    padding: 50px 0;
+}
+
+.second p{
+    font-size: 18px;
+}
+
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.701);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .6s;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.popup.open{
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup-content{
+    max-width: 700px;
+    background-color: aliceblue;
+    padding: 30px;
+    position: relative;
+}
+
+.popup-close{
+    position: absolute;
+    background-color: rgb(238, 62, 62);
+    right: 5px;
+    top: 5px;
+    text-decoration: none;
+    padding: 1px 4px;
+}
