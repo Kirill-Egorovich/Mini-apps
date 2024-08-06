@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(245, 245, 247);
+}
+
+header{
+    position: absolute;
+}
+
+.container{
+    max-width: 1700px;
+    margin: auto;
+}
+
+.burger, .x-mark{
+    padding-top: 20px;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 110px;
+}
+
+.hidden{
+    display: none;
+}
+
+.burger:hover{
+    transition: .2s;
+    color: blue;
+}
+
+.x-mark:hover{
+    transition: .2s;
+    color: blue;
+}
+
+.nav{
+    display: none;
+}
+
+.menu{
+    position: fixed;
+    top: 70px;
+    left: 110px;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+input{
+    padding: 17px 188px 17px 17px;
+    background-color: rgb(245, 245, 247);
+    border: none;
+    outline: none;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    background-image: url(images/glass.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 22px;
+    background-position-x: 97%;
+    font-size: 15.5px;
+    font-weight: 500;
+}
+
+input:focus{
+    background-color: #fff;
+}
+
+.wrapper{
+    display: flex;
+    background-color: rgb(245, 245, 247);
+}
+
+.block1{
+    width: 100px;
+    margin: 30px 0 10px 17px;
+}
+
+.block1 a{
+    display: block;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.block1 a:hover{
+    transition: .1s;
+    color: blue;
+}
+
+.block2{
+    width: 123px;
+    margin: 30px 0 10px 100px;
+}
+
+.block2 a{
+    display: block;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.block2 a:hover{
+    transition: .1s;
+    color: blue;
+}
