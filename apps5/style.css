@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    height: 245px;
+    padding: 20px 0;
+    margin-top: 35vh;
+    margin-left: 23%;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+img{
+    transition: .7s;
+    width: 320px;
+    height: 200px;
+    padding: 0 15px;
+}
+
+img:hover{
+    transition: .4s;
+    width: 350px;
+    height: 220px;
+    padding: 0 5px;
+}
